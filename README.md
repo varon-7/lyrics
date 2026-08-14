@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VARON'S LYRICS HUB</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-image: url('background.jpg'); /* use your photo */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+   .overlay {
+      background: rgba(0,0,0,0.7);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 36px;
+      color: #ff4d6d;
+      text-shadow: 2px 2px 6px black;
+    }
+   .song-card {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 25px;
+      max-width: 700px;
+      margin: 0 auto;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+   .song-title {
+      font-size: 24px;
+      margin-bottom: 5px;
+      color: #ff4d6d;
+    }
+   .artist {
+      opacity: 0.8;
+      margin-bottom: 20px;
+    }
+   .lyrics {
+      white-space: pre-line; /* keeps line breaks */
+      line-height: 1.8;
+      font-size: 17px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      opacity: 0.7;
+      font-size: 14px;
+    }
+    /* Search bar */
+   .search {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+   .search input {
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>🎵 Varon's Lyrics Hub</h1>
+      <p>Your favorite song lyrics in one place</p>
+    </header>
+
+    <div
+      <input type="text" placeholder="Search for a song...">
+    </div>
+
+    <div class="song-card">
+      <div class="song-title">Deep Wounds</div>
+      <div class="artist">Polo G</div>
+      <div class="lyrics">
+D. Major, baby
+I've been scarred by your love, left my heart bleedin'
+My soul posted in the shadows with some dark demons
+I'm on the E-way in a fast foreign car speedin'
+.223 spit out quick when that choppa ringin'
+We ain't never duckin' beef, bitch, we not vegan
+My lil' niggas 'bout that action, they be Glock squeezin'
+Red beams on his head, now his top leakin'
+I heard that boy got man down, and now the opps grievin'
+I miss Mike Durb, I won't forget the things you used to say
+My friends got killed on the same block where we used to play
+I know that death come unexpected, you can't choose a day
+I swear I pop so many pills, shit got me losin' weight
+One minute, life was so hard, shit had me losin' faith
+I know my haters checkin' on me, I been doin' great
+I couldn't get wrapped up in that drama, had to move away
+Everythin' could change, depend on what you do today
+You gotta live with each decision that you choose to make
+I used to hustle to survive, I found a newer way
+Remember high speeds in the hot car, tryna lose the jakes
+You got your life in your hands until you lose a case
+So much potential in the lives these niggas threw away
+Daydreamin' 'bout my freedom, every night I used to pray
+I got that check and stayed loyal, make sure my shooters straight
+Heard he went unidentified, them hollows chewed his face
+I've been scarred by your love, left my heart bleedin'
+My soul posted in the shadows with some dark demons
+I'm on the E-way in a fast foreign car speedin'
+.223 spit out quick when that choppa ringin'
+We ain't never duckin' beef, bitch, we not vegan
+My lil' niggas 'bout that action, they be Glock squeezin'
+Red beams on his head, now his top leakin'
+I heard that boy got man down, and now the opps grievin'
+Lil Duck hop out in traffic, let them things bust
+Lil Jo be buggin', he'll make you give your chain up
+This shit too deep, no, I can never give my gang up
+Shit'll never be the same, them trenches changed us
+My niggas gone, I miss them days when we came up
+If I could be with you, give all the money and the fame up
+That pain was so unbearable, I almost gave up
+First, we was broke, but now I'm swervin' in that Range truck
+We was wildin' in 'em streets, a savage what they named us
+When it's violence on our side of town, they blame us
+Smith & Wesson torch a nigga, he get flamed up
+Them .40 shells crack his head, fuck your brain up
+I've been scarred by your love, left my heart bleedin'
+My soul posted in the shadows with some dark demons
+I'm on the E-way in a fast foreign car speedin'
+.223 spit out quick when that choppa ringin'
+We ain't never duckin' beef, bitch, we not vegan
+My lil' niggas 'bout that action, they be Glock squeezin'
+Red beams on his head, now his top leakin'
+I heard that boy got man down, and now the opps grievin'
+      </div>
+    </div>
+
+    <footer>
+      © 2026 Varon's Lyrics Hub | Made with ❤️
+    </footer>
+  </div>
+</body>
+</html>
